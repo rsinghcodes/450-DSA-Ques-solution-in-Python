@@ -2,15 +2,15 @@
 
 # Implement using Function
 
-def maxAndminInArray(arr):
-    max = min = arr[0]
-    for i in arr:
-        if i > max:
-            max = i
-        elif i < min:
-            min = i
-    print("Max " + str(max))
-    print("Min " + str(min))
+# def maxAndminInArray(arr):
+#     max = min = arr[0]
+#     for i in arr:
+#         if i > max:
+#             max = i
+#         elif i < min:
+#             min = i
+#     print("Max " + str(max))
+#     print("Min " + str(min))
 
 # Implement using class (oop)
 
