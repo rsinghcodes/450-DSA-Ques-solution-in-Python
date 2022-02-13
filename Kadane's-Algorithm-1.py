@@ -1,5 +1,7 @@
 # Ques -> Find largest sum of contiguous Subarray [V. IMP]
 
+# Time Complexity --> O(N) and Space Complexity --> O(1)
+
 def maxSubArraySum(arr, N):
     max_sum = arr[0]
     cur_sum = arr[0]

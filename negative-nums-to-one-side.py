@@ -1,10 +1,14 @@
 # Ques -> Move all negative numbers to beginning and positive to end with constant extra space
 
+# Time Complexity --> O(1) and Space Complexity --> O(1)
+
 # def rearrange(arr):
 #     arr.sort()
 #     return arr
 
 # ----------------------------------------------------------------
+
+# Time Complexity --> O(N) and Space Complexity --> O(1)
 
 def rearrange(arr,n):
     j = 0

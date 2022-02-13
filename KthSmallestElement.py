@@ -2,6 +2,8 @@
 #         the task is to find the Kth smallest element in the given array. It is given
 #         that all array elements are distinct.
 
+# Time and Space Complexity --> O(1)
+
 def kthSmallest(arr,k):
     arr.sort()
     return arr[k-1]
